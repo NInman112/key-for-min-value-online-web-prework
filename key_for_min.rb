@@ -8,8 +8,7 @@ def key_for_min_value(name_hash)
    if value < next_value
      next_value = value
      next_key = key
-    elsif name_hash.empty? == true
-     return nil
+
    end
  end
  next_key
